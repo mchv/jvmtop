@@ -57,7 +57,7 @@ import com.jvmtop.view.VMProfileView;
 public class JvmTop
 {
 
-  public static final String                         VERSION                 = "0.8.0 alpha";
+  public static final String                         VERSION                 = "0.1.0";
 
   private Double                                     delay_                  = 1.0;
 
@@ -356,7 +356,7 @@ public class JvmTop
    */
   private void printTopBar()
   {
-    System.out.printf(" JvmTop %s - %8tT, %6s, %2d cpus, %15.15s", VERSION,
+    System.out.printf(" jvmtop (lemon flavor)  %s - %8tT, %6s, %2d cpus, %15.15s", VERSION,
         new Date(), localOSBean_.getArch(),
         localOSBean_.getAvailableProcessors(), localOSBean_.getName() + " "
             + localOSBean_.getVersion());
@@ -370,7 +370,7 @@ public class JvmTop
     {
       System.out.println();
     }
-    System.out.println(" https://github.com/patric-r/jvmtop");
+    System.out.println(" https://github.com/mchv/jvmtop");
     System.out.println();
   }
 
