@@ -7,10 +7,6 @@
     </formats>
     <files>
         <file>
-            <source>INSTALL</source>
-            <outputDirectory>/</outputDirectory>
-        </file>
-        <file>
             <source>src/main/wrappers/jvmtop.bat</source>
             <outputDirectory>/</outputDirectory>
         </file>
