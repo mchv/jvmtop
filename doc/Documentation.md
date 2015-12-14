@@ -43,3 +43,9 @@ CPU = current CPU utilization (in ratio to available cpu time on all processors)
 TOTALCPU = CPU utilization (in ratio to process cpu consumption) since the thread is alive
 BLOCKEDBY = the thread id which blocks this thread
 ```
+
+### Profiler ###
+
+Due to the deisgn:
+* the to-be-profiled jvm will face an significantly increased CPU-usage till the profiling ends
+* compared to other profilers, the sample-rate is lower, however, for huge performance issues, it should suffice to diagnose issues in most-cases.
