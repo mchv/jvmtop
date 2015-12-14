@@ -32,16 +32,14 @@ jvmtop (:lemon: flavor) is a convenient fork of [jvmtop](https://github.com/patr
 
 If you experience a problem [please fill an issue](https://github.com/mchv/jvmtop/issues)
 
-
-requirements
+Requirements
 -------------
 
  * JDK (JRE is not sufficient)
 
 jvmtop has been tested with different releases of Oracle JDK, IBM JDK and OpenJDK on Linux, Solaris, FreeBSD and Windows hosts.
 
-
-documentation
+Documentation
 --------------
 
 [Documentation](./doc/Documentation.md)
